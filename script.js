@@ -21,6 +21,10 @@ function dropHandler(e)
 
 ex3_element.addEventListener("dragstart", dragstartHandler);
 
+ex3_one.addEventListener("dragover", dragoverHandler);
+
+ex3_one.addEventListener("drop", dropHandler)
+
 ex3_two.addEventListener("dragover", dragoverHandler);
 
 ex3_two.addEventListener("drop", dropHandler)
